@@ -1,0 +1,13 @@
+The basic idea of this adjoint tomography package is:
+1. all the run_*.sh are scripts for preparation.
+2. pbs_*.sh are PBS scripts for computing
+3.  submit* are scripts sumbit pbs jobs
+
+Note:
+1. remember to test the the scripts for one station before large number of simulations
+2. You might need to change the SACAUX in seis_process/*.pl
+3. Remember to change WINDOWS.PAR according to your data type
+4. How to get volumic kernel coverage ??
+   set DO_RAY_DENSITY_SOURCE=.true. in measure_adj/ma_constants.f90
+   then the adjoint source are constructed with dt=1 or dlnA=1 (check $15,$16 of window_chi)
+

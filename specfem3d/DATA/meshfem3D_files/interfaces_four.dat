@@ -1,0 +1,39 @@
+# number of interfaces
+ 4
+#
+# We describe each interface below, structured as a 2D-grid, with several parameters : 
+# SUPPRESS_UTM_PROJECTION, number of points along XI and ETA, minimal XI ETA coordinates 
+# and spacing between points which must be constant.
+# Then the records contain the Z coordinates of the NXI x NETA points.
+#
+# interface number 3 (moho, Zhu Lupei)
+# SUPPRESS_UTM_PROJECTION  NXI  NETA LONG_MIN   LAT_MIN    SPACING_XI SPACING_ETA
+ .false. 71 51 -121.d0 32.d0 0.10d0 0.10d0
+ moho.dat
+#
+# interface number 3 (moho, BASIN code)
+# SUPPRESS_UTM_PROJECTION  NXI  NETA LONG_MIN   LAT_MIN    SPACING_XI SPACING_ETA
+# .true. 641 505 66000.d0 3571000.d0 1000.0d0 1000.0d0
+# moho.dat.BASIN
+#
+## interface number 2 (basement,absolute,only LA basement, small region  )
+# .true. 161 141 316000.d0 3655000.d0 1000.0d0 1000.0d0
+# base.dat.relative 
+# interface number 2 (basement,relative, absolute basement +topo  )
+ .true. 641 505 66000.d0 3571000.d0 1000.0d0 1000.0d0
+ base.dat.BASIN 
+#
+# interface number 2 (basement,relative, absolute basement +topo  )
+ .true. 641 505 66000.d0 3571000.d0 1000.0d0 1000.0d0
+ sedi.dat.BASIN
+#
+# interface number 1 (topography & bathymetry, top of the mesh)
+ .false. 1401 1001 -121.d0 32.d0 0.005d0 0.005d0
+ topo.dat
+#
+# for each layer, we give the number of spectral elements in the vertical direction
+# layer number 1 (bottom layer)
+3
+5
+2
+1 
