@@ -78,7 +78,7 @@ for ipart in `seq 1 1 1`;do
   cp run_preprocessing.2band.sh run_preprocessing.sh
   sed -i "/mod=/c\mod=${newmod}" run_preprocessing.sh
   sed -i "/srfile=/c\srfile=sources_set${ipart}.dat" run_preprocessing.sh
-  ./run_preprocessing.sh
+  bash run_preprocessing.sh
   sed -i "/FWD/c\#PBS -N FWD.${newmod}" $fwd
   sed -i "/#PBS -l walltime/c\#PBS -l walltime=04:30:00" $fwd
   sed -i "/srfile=/c\srfile=sources_set${ipart}.dat" $fwd
