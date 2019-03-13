@@ -1,8 +1,8 @@
 #!/bin/bash
 
 
-mod=M03.set49
-srfile=sources_set49.dat
+mod=M00.set1
+srfile=sources_set1.dat
 
 R0=2.8 # minimum group velocity
 R1=4.5 # naximum group velocity

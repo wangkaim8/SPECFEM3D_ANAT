@@ -1,6 +1,6 @@
  #!/bin/bash
 
-#PBS -N FWD.M03.set49
+#PBS -N FWD.M00.set1
 #PBS -M kai.wang@mq.edu.au
 #PBS -m abe
 #PBS -l nodes=21:ppn=8
@@ -21,9 +21,9 @@ cd $PBS_O_WORKDIR
 cdir=`pwd`
 # number of processes
 NPROC=168
-mod=M03.set49
+mod=M00.set1
 is_ls=false
-srfile=sources_set49.dat
+srfile=sources_set1.dat
 ####
 nevt=`cat src_rec/$srfile |wc -l`
 echo $nevt "found!!!"
