@@ -1,7 +1,7 @@
 ### SPECFEM3D_ANAT
 
 ## Overview
-SPECFEM3D_ANAT is a shell-script driven inversion package of ambient noise adjoint tomography (ANAT). In this package, I build a flexible workflow for implementing adjoint tomography on clusters. The basic idea of ANAT is to iteratively minimize the traveltime misfit between empirical Green's functions (EGFs) from ambient noise and synthetic Green's functions (SGFs) from spectral-element simulations based on misfit gradient. According to the job submission schedule, we divide the inversion into three stages. In stage one, we conduct the forward and adjoint simulation in one PBS job (including misfit measurement) to obtain the event kernel of each virtual source (or master station). After all the simulations are finished, event kernels are summed, preconditioned, and smoothed in stage two to obtain the final misfit gradient. In stage three, we use line search to determine the optimal step length for model updating. 
+SPECFEM3D_ANAT is a shell-script driven inversion package of ambient noise adjoint tomography (ANAT). In this package, I build a flexible workflow for implementing adjoint tomography on clusters. The basic idea of ANAT is to iteratively minimize the traveltime misfit between empirical Green's functions (EGFs) from ambient noise and synthetic Green's functions (SGFs) from spectral-element simulations based on misfit gradient. According to the job submission schedule, it is divided into three stages. In stage one, I conduct the forward and adjoint simulation in one PBS job (including misfit measurement) to obtain the event kernel of each virtual source (or master station). After all the simulations are finished, event kernels are summed, preconditioned, and smoothed in stage two to obtain the final misfit gradient. In stage three, I use line search to determine the optimal step length for model updating. 
 ![ANAT package structure](doc/ANAT_structure.png)
 
 ## Document
@@ -31,6 +31,6 @@ This project is licensed under the GNU General Public License, Version 3 (GPLv3)
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
+* Ｍacquarie University 
+* SPECFEM3D community
 * etc
