@@ -1,5 +1,12 @@
 #!/bin/bash
-mod=M02
+# This script is used to run a line search for chooseing optimal step length 
+# for model update
+# Author: Kai Wang, wangkaim8@gmail.com
+# University of Toronto, ON, Canada
+# Last modified: Tue Dec 22 10:52:28 EDT 2017
+
+
+mod=M00
 inv_dir=optimize/SD_$mod
 fwd=pbs_mesh_fwd_measure.sh
 #for step in `seq 0.02 0.02 0.14`;do

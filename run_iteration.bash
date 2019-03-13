@@ -1,4 +1,11 @@
 #!/bin/bash
+# This script is used to prepare direcotries and files for running specfem3d.
+# Author: Kai Wang, wangkaim8@gmail.com
+# University of Toronto, ON, Canada
+# Last modified: Tue Dec 22 10:52:28 EDT 2017
+
+
+
 mod=M00
 step=0.04
 oldmod=`echo $mod |awk -FM '{printf"M%02d",$2-1}'`

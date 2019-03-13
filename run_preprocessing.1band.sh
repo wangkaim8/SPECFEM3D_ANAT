@@ -1,4 +1,13 @@
 #!/bin/bash
+# This script is used to prepare files for running preprocessing procedure
+# for a single period band. The output two directories are:
+# seis_process_M??.set?
+# measure_adj_M00.set?
+# Author: Kai Wang, wangkaim8@gmail.com
+# University of Toronto, ON, Canada
+# Last modified: Tue Dec 22 10:52:28 EDT 2017
+
+
 
 
 mod=M18_slen0.10

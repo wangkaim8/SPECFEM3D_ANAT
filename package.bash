@@ -1,4 +1,10 @@
 #!/bin/bash
+# This script is used to package the whole inversion codes.
+# Author: Kai Wang, wangkaim8@gmail.com
+# University of Toronto, ON, Canada
+# Last modified: Tue Dec 22 10:52:28 EDT 2017
+
+
 out=ambient_noise_adjoint_tomography.package.SC.Rayl.SCINET
 rm -rf $out
 mkdir $out

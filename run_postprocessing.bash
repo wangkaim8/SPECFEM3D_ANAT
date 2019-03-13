@@ -1,4 +1,9 @@
 #!/bin/bash
+# This script is used to prepare files for  postprocessing.
+# Author: Kai Wang, wangkaim8@gmail.com
+# University of Toronto, ON, Canada
+# Last modified: Tue Dec 22 10:52:28 EDT 2017
+
 
 mod=M02
 step=0.08
