@@ -14,12 +14,18 @@ For the versions available, see the [tags on this repository](https://github.com
 
 ## References
 
-If you use this inversion package or benifit from our workflow, please cite our papers:
+If you use this inversion package or benifit from our workflow, please cite our papers in the following.
+
 For Rayleigh wave ANAT:
+
 1. Wang K., Y. Yang, P. Basini, P. Tong, C. Tape, and Q. Liu, 2018. Refined crustal and uppermost structure of southern California by ambient noise adjoint tomography. Geophysical Journal International, 215(3), 844-863.
+
 For Love wave ANAT:
+
 2. Wang K., Q. Liu, and Y. Yang, 2019. 3D Sensitivity Kernels for Multi-component Empirical Green's Functions from Ambient Noise : Methodology and Application to Adjoint Tomography.
+
 For multi-component ANAT to infer radial anisotropy:
+
 3. Wang K., C. Jiang, Q. Liu, and Y. Yang, 2019. Crustal deformation of southern California constrained by seismic radial anisotropy from multi-component ambient noise adjoint tomography.
 
 ## Authors
