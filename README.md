@@ -22,7 +22,7 @@ For Rayleigh wave ANAT:
 
 For Love wave ANAT:
 
-2. Wang K., Q. Liu, and Y. Yang, 2019. 3D Sensitivity Kernels for Multi-component Empirical Green's Functions from Ambient Noise : Methodology and Application to Adjoint Tomography. Journal of Geophysical Research: Solid Earth. (submitted)
+2. Wang K., Q. Liu, and Y. Yang, 2019. Three-Simensional Sensitivity Kernels for Multicomponent Empirical Green's Functions from Ambient Noise : Methodology and Application to Adjoint Tomography. Journal of Geophysical Research: Solid Earth, 124. https://doi.org/10.1029/2018JB017020. 
 
 For multi-component ANAT to infer radial anisotropy:
 
@@ -31,6 +31,8 @@ For multi-component ANAT to infer radial anisotropy:
 ## Authors
 
 * **Kai Wang** - *Initial work* - [Kai Wang](https://sites.google.com/view/kaikaiwang)
+
+Codes of measure_adj and seis_process are fully credited to Prof. Qinya Liu, Prof. Carl Tape and their collaborators.
 
 Please contact me (wangkaim8@gmail.com) if you want to participat in this project.
 
